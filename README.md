@@ -1,0 +1,350 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ali Iqbal | SEO Specialist</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8fafc;
+color:#0f172a;
+}
+
+header{
+background:#0f172a;
+color:white;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#38bdf8;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+}
+
+
+.hero{
+min-height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:#e0f2fe;
+padding:30px;
+}
+
+
+.hero img{
+width:190px;
+height:190px;
+border-radius:50%;
+object-fit:cover;
+border:6px solid #0284c7;
+}
+
+
+.hero h1{
+font-size:45px;
+margin:20px 0;
+}
+
+
+.hero span{
+color:#0284c7;
+}
+
+
+.hero p{
+font-size:20px;
+}
+
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 35px;
+background:#0284c7;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+
+section{
+padding:60px 8%;
+}
+
+
+.title{
+text-align:center;
+font-size:35px;
+margin-bottom:35px;
+}
+
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 20px #ddd;
+margin:15px;
+}
+
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+
+.skill{
+background:#0f172a;
+color:white;
+padding:12px 22px;
+border-radius:25px;
+}
+
+
+.contact{
+background:#0f172a;
+color:white;
+text-align:center;
+}
+
+
+footer{
+background:#020617;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+
+@media(max-width:700px){
+
+header{
+flex-direction:column;
+}
+
+.hero h1{
+font-size:35px;
+}
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+Ali Iqbal
+</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+
+<section class="hero">
+
+<div>
+
+<img src="profile.jpg" alt="Ali Iqbal">
+
+<h1>
+Hi, I'm <span>Ali Iqbal</span>
+</h1>
+
+<p>
+SEO Specialist | Off-Page SEO | Content Marketing
+</p>
+
+<a class="btn" href="https://wa.me/923111301905">
+Hire Me on WhatsApp
+</a>
+
+</div>
+
+</section>
+
+
+
+<section id="about">
+
+<h2 class="title">
+About Me
+</h2>
+
+<div class="card">
+
+<p>
+I am Ali Iqbal, an SEO specialist and digital marketing learner.
+I help websites improve their online visibility through SEO,
+backlink building and content marketing strategies.
+</p>
+
+</div>
+
+</section>
+
+
+
+<section id="services">
+
+<h2 class="title">
+My Services
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Off-Page SEO</h3>
+<p>Backlink building and website authority improvement.</p>
+</div>
+
+
+<div class="card">
+<h3>Content Marketing</h3>
+<p>Content strategies for online growth.</p>
+</div>
+
+
+<div class="card">
+<h3>Data Entry</h3>
+<p>Fast and accurate data management services.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="skills">
+
+<h2 class="title">
+My Skills
+</h2>
+
+
+<div class="skills">
+
+<div class="skill">SEO</div>
+<div class="skill">Backlinks</div>
+<div class="skill">Off Page SEO</div>
+<div class="skill">Content Marketing</div>
+<div class="skill">Data Entry</div>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2 class="title">
+Education
+</h2>
+
+<div class="card">
+
+<h3>Matric Education</h3>
+
+<p>
+Learning SEO, Digital Marketing and Web Skills.
+</p>
+
+</div>
+
+</section>
+
+
+
+<section id="contact" class="contact">
+
+<h2 class="title">
+Contact Me
+</h2>
+
+<p>
+Email: aliiqbal78690@gmail.com
+</p>
+
+<br>
+
+<p>
+WhatsApp: 03111301905
+</p>
+<p>
+LinkedIn:
+<a style="color:#38bdf8;" 
+href="https://www.linkedin.com/in/ali-iqbal-seo-a04a41374" 
+target="_blank">
+Ali Iqbal SEO Profile
+</a>
+</p>
+
+<br>
+
+<a class="btn" href="https://wa.me/923111301905">
+Chat Now
+</a>
+
+
+</section>
+
+
+
+<footer>
+
+© 2026 Ali Iqbal | SEO Portfolio
+
+</footer>
+
+
+</body>
+</html>
